@@ -12,7 +12,7 @@ public class Task11 {
 
         sum = benefit(sum, percent);
 
-        System.out.println("Сумма на счете через год: " + sum);
+        System.out.println(sum);
     }
 
 }
