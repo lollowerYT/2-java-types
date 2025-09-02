@@ -3,7 +3,7 @@ package com.example.task04;
 public class Task04 {
 
     public static float calculate(int a, int b, String operation) {
-         switch (operation) {
+        switch (operation) {
             case "+":
                 return a + b;
             case "-":
@@ -11,10 +11,11 @@ public class Task04 {
             case "*":
                 return a * b;
             case "/":
-                 if (b == 0) throw new ArithmeticException("Деление на ноль невозможно");
+                if (b == 0) throw new ArithmeticException("Деление на ноль невозможно");
                 return (float) a / b;
             default:
                 throw new IllegalArgumentException(operation + " - Неверный оператор.");
+        }
     }
 
     public static void main(String[] args) {
