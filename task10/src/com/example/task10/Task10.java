@@ -5,7 +5,7 @@ public class Task10 {
     public static boolean compare(float a, float b, int precision) {
         
         if (Float.isNaN(a) && Float.isNaN(b)) return true;
-        if (Float.isInfinite(a) && Float.isInfinite(b)) return a == b; // +Inf == +Inf, -Inf == -Inf
+        if (Float.isInfinite(a) && Float.isInfinite(b)) return a == b;
         
         double scale = Math.pow(10, precision);
         
